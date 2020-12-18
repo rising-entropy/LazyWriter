@@ -27,6 +27,10 @@ if choice == 1:
                 char = "DevangFont/space.png"
             elif i == ".":
                 char = "DevangFont/dot.png"
+            elif i == "~":
+                char = "DevangFont/tilde.png"
+            elif i == "/":
+                char = "DevangFont/fslash.png"
             elif i == '\n':
                 xP = 40
                 yP += 120
@@ -40,7 +44,7 @@ if choice == 1:
             pos = ((xP), (yP))
             image.paste(img2, pos, img2)
             image.save("sheet.png")
-            xP += 80
+            xP += 60
             if xP > 2440:
                 xP = 40
                 yP += 120
