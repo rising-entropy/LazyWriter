@@ -194,6 +194,5 @@ elif choice == 3:
 else:
     print("Invalid Choice.")
 
-imgur = Image.open('sheet.png')
-imgur.save('sheet.pdf')
+image.save('sheet.pdf')
 print("PDF is Ready.")
