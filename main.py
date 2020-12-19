@@ -54,7 +54,7 @@ if choice == 1:
                 if yP > 3460:
                     break
             if xP >= 2240:
-                if data[i+1] == " " or data[i+1] == "\n":
+                if data[i+1] == " " or data[i+1] == "\n" or data[i+1] == "'" or data[i+1] == "-":
                     continue
                 else:
                     char = "LampteyFont/-.png"
